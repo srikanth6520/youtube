@@ -8,4 +8,4 @@ metadata:
 spec:
   containers: # list of containers
     - name: nginx-container
-      image: nginx #docker image
+      image: nginx:latest #docker image
