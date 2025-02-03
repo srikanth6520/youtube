@@ -18,7 +18,7 @@ spec:
         type: front-end
     spec:
       containers:
-        - name: todoapp
-          image: kubekode/react-todo-list-app
+        - name: nginx
+          image: nginx:latest
           ports:
             - containerPort: 80
