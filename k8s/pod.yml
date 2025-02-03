@@ -9,3 +9,4 @@ spec:
   containers: # list of containers
     - name: nginx-container
       image: nginx:latest #docker image
+      imagePullPolicy: IfNotPresent
